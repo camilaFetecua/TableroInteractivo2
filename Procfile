@@ -1,3 +1,2 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/*
-edu.escuelaing.arsw.wbinteractiverealtimeline.WBAppController
+web: java -Dserver.port=$PORT -cp target/classes:target/dependency/* edu.escuelaing.arsw.wbinteractiverealtimeline.WBAppController
 
