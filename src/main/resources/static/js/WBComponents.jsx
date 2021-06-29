@@ -62,8 +62,12 @@ render()
 }
 // Retorna la url del servicio. Es una función de configuración.
 function BBServiceURL() {
-    return 'wss://localhost:8080/wbService';
+    var host = window.location.host;
+    var url = 'wss://' + (tablerointeractivo2) + '/bbService';
+    console.log("URL Calculada: " + url);
+    return url;
 }
+
 class WSBBChannel {
     constructor(URL, callback) {
         this.URL = URL;
