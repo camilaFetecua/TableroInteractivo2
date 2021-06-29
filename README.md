@@ -36,7 +36,7 @@
          
 # Diagrama de clases  
 
-![Imagen]()
+![Imagen](https://github.com/camilaFetecua/TableroInteractivo2/blob/master/Imagenes/DiagramadeClases.PNG)
 
   Para este proyecto utilizamos:
   + **React.Component:** Para dubujar el tablero.
@@ -55,17 +55,17 @@
   
  En la pagina principal encontramos el tablero en blanco como podemos observar en la siguiente imagen
  
- ![Imagen]()
+ ![Imagen](https://github.com/camilaFetecua/TableroInteractivo2/blob/master/Imagenes/Prueba1.PNG)
 
 Realizamos el primer dibujo en el tablero 
  
- ![Imagen]()
+ ![Imagen](https://github.com/camilaFetecua/TableroInteractivo2/blob/master/Imagenes/Prueba2.PNG)
  
 
 Despues abrimos la pagina en una pestaña incognita y realizamos un dibujo.Podemos observar que
 en el tablero inicial se muestra el dubujo del otro usuario en un color diferente.
 
-![Imagen]()
+![Imagen](https://github.com/camilaFetecua/TableroInteractivo2/blob/master/Imagenes/Prueba3.PNG)
 
 # Tecnologias Utilizadas
 
@@ -78,7 +78,7 @@ en el tablero inicial se muestra el dubujo del otro usuario en un color diferent
 
 # Licencia
 
-  Para consultar la Licencia del proyecto haga [click aqui]()
+  Para consultar la Licencia del proyecto haga [click aqui](https://github.com/camilaFetecua/TableroInteractivo2/blob/master/LICENSE.md)
   
   
 # Autor 
