@@ -67,7 +67,7 @@ function BBServiceURL() {
 class WSBBChannel {
     constructor(URL, callback) {
         this.URL = URL;
-        this.wsocket = new WebSocket(URL);
+        this.wsocket = new WebSocket(this.URL);
         this.wsocket.onopen = (evt) => this.onOpen(evt);
         this.wsocket.onmessage = (evt) => this.onMessage(evt);
         this.wsocket.onerror = (evt) => this.onError(evt);
@@ -80,8 +80,7 @@ class WSBBChannel {
 
     onMessage(evt) {
         console.log("In onMessage", evt);
-        // Este if permite que el primer mensaje del servidor no se tenga en
-        cuenta.
+        // Este if permite que el primer mensaje del servidor no se tenga en cuenta.
             // El primer mensaje solo confirma que se estableció la conexión.
             // De ahí en adelante intercambiaremos solo puntos(x,y) con el servidor
             if(evt.data != "Connection established.")
