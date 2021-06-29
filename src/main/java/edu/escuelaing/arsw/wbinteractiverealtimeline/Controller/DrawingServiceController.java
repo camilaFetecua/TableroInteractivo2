@@ -1,4 +1,4 @@
-package edu.escuelaing.arsw.wbinteractiverealtimeline;
+package edu.escuelaing.arsw.wbinteractiverealtimeline.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

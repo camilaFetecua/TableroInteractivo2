@@ -101,6 +101,6 @@ class WSBBChannel {
     }
 }
 ReactDOM.render(
-    <Editor name="Daniel"/>,
+    <Editor name="Camila"/>,
     document.getElementById('root')
 );
