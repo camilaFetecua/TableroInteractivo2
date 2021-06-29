@@ -63,7 +63,7 @@ render()
 // Retorna la url del servicio. Es una función de configuración.
 function BBServiceURL() {
     var host = window.location.host;
-    var url = 'wss://' + (tableroInteractivo2) + '/bbService';
+    var url = 'wss://' + (tablerointeractivo2) + '/bbService';
     console.log("URL Calculada: " + url);
     return url;
 }
