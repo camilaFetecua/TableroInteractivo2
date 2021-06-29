@@ -6,7 +6,14 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.socket.server.standard.ServerEndpointExporter;
 @Configuration
 @EnableScheduling
+/**
+ *
+ */
 public class BBConfigurator {
+    /**
+     * Metodo que llamo el Servidor EndPoint
+     * @return un nuevo servidor Endpoint
+     */
     @Bean
     public ServerEndpointExporter serverEndpointExporter() {
         return new ServerEndpointExporter();

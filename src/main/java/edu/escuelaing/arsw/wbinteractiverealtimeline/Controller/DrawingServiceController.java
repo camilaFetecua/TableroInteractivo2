@@ -2,6 +2,10 @@ package edu.escuelaing.arsw.wbinteractiverealtimeline.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+/**
+ *  Clase donde se obtiene el estado
+ */
 public class DrawingServiceController {
     @GetMapping("/status")
     public String status() {
